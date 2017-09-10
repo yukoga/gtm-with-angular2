@@ -1,6 +1,18 @@
-# AngularTourOfHeroes
+# Google TagManager Implementation sample in AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+
+## How to use this sample.  
+1. Clone this repo into your working environment.  
+2. Import GTM-WDBT256_workspace18.json into your Google TagManager account.  
+3. Change Google Analytics Tracking ID in {{Var tracking ID}}.  
+4. `cd YOUR_WORKING_DIRS/gtm-with-angular2`  
+5. Put your container snippet into src/index.html  
+6. `npm install`  
+7. `ng serve -o`  
+
+You will see Angular Tour of Heroes apps launching, then Google Analytics
+starts to measure pageviews and some clicks.  
 
 ## Development server
 
