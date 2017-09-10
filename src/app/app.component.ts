@@ -1,3 +1,4 @@
+import { Angulartics2GoogleTagManager } from 'angulartics2';
 import { Component } from '@angular/core';
 
 @Component({
@@ -14,4 +15,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
+  constructor(gtm: Angulartics2GoogleTagManager) {}
 }

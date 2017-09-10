@@ -9,12 +9,16 @@ import { HeroesComponent } from './heroes.component';
 import { HeroService } from './hero.service';
 
 import { AppRoutingModule } from './app-routing.module'
+import { Angulartics2Module, Angulartics2GoogleTagManager } from 'angulartics2';
 
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
+    Angulartics2Module.forRoot([
+      Angulartics2GoogleTagManager
+    ]),
     AppRoutingModule
   ],
   declarations: [
